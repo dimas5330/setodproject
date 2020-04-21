@@ -2,7 +2,7 @@ class panggil:
     """description of class"""
 
     def warning_wrongKeyword(self):
-            print(""""Inputan anda salah
+            print("""Inputan anda salah
     Ketikkan "Keyword" untuk menampilkan keyword dalam aplikasi ini.
     Perhatikan huruf kapital """)
     
@@ -10,7 +10,6 @@ class panggil:
         print("""Berikut adalah keyword yang ada dalam aplikasi ini :
     "RAM"               =   untuk mengetahui perbedaan DDR,SDRAM, dan SODIMM
     "Spesifikasi"       =   untuk mengetahui cara membaca spesifikasi RAM anda
-    "Transfer Rate"     =   untuk menghitung maximum tranfer rate RAM anda
     "Timing"            =   untuk mengetahui tentang timing dari RAM anda
     "Impact"            =   untuk mengetahui dampak timing terhadap performa RAM anda
     "System"            =   untuk mengetahui cara kerja RAM terkoneksi dengan sistem
@@ -124,3 +123,13 @@ class panggil:
         Delay = int(CL)*float(T)
         print("Waktu yang dibutuhkan untuk perpindahan data adalah : ")
         print(Delay)
+
+    def warning(self):
+        print('Keyword salah!!\nMasukan Keyword yang benar!!')
+
+    def Bandwidth_counter(self):
+        print('Berikut adalah alat untuk menghitung Bandwidth RAM : ')
+        clock = int(input('Masukkan DDR Clock Rate,bukan Real Clock Rate : '))
+        Bandwidth = clock * 8
+        print("Bandwidth dari RAM anda adalah : ")
+        print(Bandwidth)
