@@ -71,7 +71,6 @@ class panggil:
         print("""Semakin kecil waktu yang dibutuhkan untuk melakukan perpindahan data maka akan semaki bagus performa dari RAM tersebut.
         Sehingga semakin kecil nilai dari CL(Cas Latency) maka semakin baik performa dari RAM.
         Begitu juga dengan nilai dari tRCD,tRP,dan tRAS semakin kecil maka akan semakin baik""")
-        print('Real Clockspeed dari RAM DDR adalah Clockspeed dari label dibagi 2')
 
     def System(self):
         print("""Cara Kerja RAM Sehingga Dapat Terkoneksi ke Sistem

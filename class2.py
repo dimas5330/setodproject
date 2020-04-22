@@ -27,7 +27,7 @@ class panggil2:
             while (lagi == 'n'):
                 print('Terimakasih telah menggunakan aplikasi kami!!')
                 break
-            while (lagi != 'y' or lagi != 'n'):
+            while (lagi != 'y' and lagi != 'n'):
                 print ('Input salah !!')
                 break
         elif (Keyword2 == keyword[2]):
@@ -42,7 +42,7 @@ class panggil2:
             while (lagi == 'n'):
                 print('Terimakasih telah menggunakan aplikasi kami!!')
                 break
-            while (lagi != 'y' or lagi != 'n'):
+            while (lagi != 'y' and lagi != 'n'):
                 print ('Input salah !!')
                 break
         elif (Keyword2 == keyword[4]):

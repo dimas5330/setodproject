@@ -15,6 +15,6 @@ while (lagi == 'y'):
 while (lagi == 'n'):
     print('Terimakasih sudah menggunakan Aplikasi kami,Jika berkenan anda boleh membantu kami dengan berdonasi seikhlasnya ke rekening : 12345678 a/n Dimas Seto ')
     break
-while (lagi != 'y' or lagi != 'n'):
+while (lagi != 'y' and lagi != 'n'):
     print ('Input salah, Aplikasi berhenti!!')
     break
