@@ -14,4 +14,7 @@ while (lagi == 'y'):
     lagi = input('Apakah anda ingin memakai aplikasi lagi?(y/n) : ')
 while (lagi == 'n'):
     print('Terimakasih sudah menggunakan Aplikasi kami,Jika berkenan anda boleh membantu kami dengan berdonasi seikhlasnya ke rekening : 12345678 a/n Dimas Seto ')
-    break    
+    break
+while (lagi != 'y' or lagi != 'n'):
+    print ('Input salah, Aplikasi berhenti!!')
+    break
